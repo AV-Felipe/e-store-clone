@@ -1,0 +1,73 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+/* FONTS */
+
+@font-face {
+    font-family: "Avenir85";
+    src: url(assets/fonts/Avenir-LT-W01-85-Heavy/Avenir-LT-W01-85-Heavy.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Avenir35";
+    src: url(assets/fonts/Avenir-LT-W01-35-Light/Avenir-LT-W01-35-Light.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(assets/fonts/Poppins/Poppins-SemiBold.ttf) format("truetype");
+}
+
+/* HEADER */
+
+#fixedHeader {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#fixedHeader a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#fixedHeaderLine1 img, #fixedHeaderLine1 object {
+    width: 1.25rem;
+    vertical-align: bottom;
+    padding-right: 4px;
+}
+
+#fixedHeaderLine1 li {
+    flex-grow: 1;
+    height: 3.125rem;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    padding-left: 15px;
+}
+
+#fixedHeaderLine1 li:last-child {
+    flex-grow: 0;
+    padding-right: 30px;
+}
+
+.textRight {
+    justify-content: end;
+}
+
+#fixedHeaderLine1 {
+    font-family: "Avenir85";
+    font-size: 1rem;
+    list-style-type: none;
+    margin: 0;
+    background-color: #018189;
+    display: flex;
+    flex-direction: row;
+}
+
