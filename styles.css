@@ -23,17 +23,19 @@ body {
     src: url(assets/fonts/Poppins/Poppins-SemiBold.ttf) format("truetype");
 }
 
-/* HEADER */
+/*|| HEADER */
+
+#fixedHeader a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* line 1 */
 
 #fixedHeader {
     width: 100%;
     display: flex;
     flex-direction: column;
-}
-
-#fixedHeader a{
-    text-decoration: none;
-    color: #ffffff;
 }
 
 #fixedHeaderLine1 img, #fixedHeaderLine1 object {
@@ -44,7 +46,7 @@ body {
 
 #fixedHeaderLine1 li {
     flex-grow: 1;
-    height: 3.125rem;
+    min-height: 3.125rem;
     display: flex;
     align-items: center;
     text-transform: uppercase;
@@ -63,6 +65,7 @@ body {
 
 #fixedHeaderLine1 {
     font-family: "Avenir85";
+    height: fit-content;
     font-size: 1rem;
     list-style-type: none;
     margin: 0;
@@ -71,3 +74,93 @@ body {
     flex-direction: row;
 }
 
+/* line 2 */
+
+#fixedHeaderLine2 {
+    list-style-type: none;
+    margin: 0;
+    height: fit-content;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+}
+
+#fixedHeaderLine2 li {
+    min-height: 5.8125rem;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+}
+
+#fixedHeaderLine2 li:last-child {
+    font-family: "Poppins";
+    font-size: 1.125rem;
+    letter-spacing: 0.9px;
+    color: #ffffff;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 191px;
+    flex-grow: 0;
+    padding-left: 10px;
+    background-color: #c5440d;
+}
+
+#fixedHeaderLine2 li:last-child a {
+    font-family: "Avenir85";
+    font-size: 1rem;
+    letter-spacing: 0.32px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-right: 30px;
+    align-self: end;
+}
+
+#searchBar {
+    font-family: "Avenir35";
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: 15px;
+    width: 281px;
+    height: 40px;
+    font-size: 1rem;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 60px;
+    text-overflow: ellipsis;
+    border-radius: 25px/50%;
+    background-color: #f5f5f5;
+    border: none;
+}
+
+#searchBar::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    width: 8px;
+    height: 8px;
+    background-image: url(assets/vectors/webkit-cancel-button.svg);
+}
+
+#searchBar:focus {
+    background-color: white;
+    border: 2px solid #f5f5f5;
+}
+
+#searchButton {
+    margin-right: 15px;
+    margin-left: -71.39px;
+    width: 56.39px;
+    height: 40px;
+    border-radius: 0  25px 25px 0;
+    background-color: #c5440d;
+    background-image: url(assets/vectors/searchButtonIcon.svg);
+    background-repeat: no-repeat;
+    background-size: 14.39px;
+    background-position: center;
+    border: none;
+}
+
+#searchButton:active {
+    outline: 2px solid blue;
+    border: 1px solid white;
+}
