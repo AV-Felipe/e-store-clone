@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   preserveAspectRatio="xMidYMid meet"
+   data-bbox="20 50.9 160 98.2"
+   viewBox="20 50.9 160 98.2"
+   height="200"
+   width="200"
+   data-type="color"
+   role="presentation"
+   aria-hidden="true"
+   aria-labelledby="svgcid--6qf1qv27kq9s"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="credit-card-icon.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="3.1377303"
+     inkscape:cx="77.285165"
+     inkscape:cy="104.37481"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="1341"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6" />
+  <g
+     id="g4"
+     transform="matrix(0.72997981,0,0,0.72997981,27.002019,27.002019)">
+    <path
+       d="M 180,133.3 V 59 c 0,-4.5 -3.4,-8.1 -7.6,-8.1 H 27.7 C 23.4,51 20,54.6 20,59 v 82 c 0,4.5 3.4,8.1 7.6,8.1 h 144.7 c 4.2,0 7.6,-3.6 7.6,-8.1 v -7.7 z M 37.3,123 h -1.5 v -6 H 89 v 6 z m -1.5,-13.7 v -6 h 21.8 v 6 z m -9,-22.8 V 68.9 h 146.4 v 17.6 z m 55.4,50.2 H 35.8 v -6 h 46.4 z"
+       fill="#c5440d"
+       id="path2" />
+  </g>
+</svg>
