@@ -179,9 +179,14 @@
 
             <ul class="salesList">
                 
-                <li style="width: 190px; background-image: url(assets/pictures/bg-card-01.webp); box-shadow: inset 0 0 0 1000px #b68723cc; justify-content: center;">
+                <li style="width: 190px; background-image: url(assets/pictures/bg-card-01.webp); box-shadow: inset 0 0 0 1000px #b68723cc; justify-content: flex-end;">
                     <p class="cardTitle" style="font-family: Avenir85; font-size: 47px;">BOM DE HOJE </p>
-                    <hr style="width: 20%; margin: 0; margin-top: 10px; margin-bottom: 10px; border-style: solid; color: #ffffff;">
+                    <svg width="40px" height="4px" style="margin-top: 20px; margin-bottom: 20px;">
+                        <path
+                            style="fill:none;stroke:#ffffff;stroke-width:4px;stroke-linecap:round;"
+                            d="M 0 0 H 40px"
+                        />
+                    </svg>
                     <p class="cardText" style="font-size: 20px;">50% de desconto - cães</p>
                     <p><button type="button" class="cardButton">Comprar Já</button></p>
                 </li>
@@ -210,8 +215,40 @@
                     <p><button type="button" class="cardButton">Comprar Já</button></p>
                 </li>
 
+                <li style="width: 561px; background-image: url(assets/pictures/bg-card-06.webp);">
+                    <p class="cardTitle">Pequeninos</p>
+                    <p class="cardText">Sou um título. Clique para editar.</p>
+                    <p><button type="button" class="cardButton">Comprar Já</button></p>
+                </li>
+
+                <li style="width: 289px; background-image: url(assets/pictures/bg-card-07.webp);">
+                    <p class="cardTitle">Répteis</p>
+                    <p class="cardText">Sou um título. Clique para editar.</p>
+                    <p><button type="button" class="cardButton">Comprar Já</button></p>
+                </li>
 
             </ul>
+
+            <hr />
+
+            <article class="topSales">
+                <h2>O Melhor para os Pets</h2>
+
+                <ul class="shoppingList">
+                    <li>
+                        <img class="productImage" src="assets/pictures/sales-card-1-a.webp" alt="tigela para alimento pet" />
+                        <p class="productTitle">Sou um produto</p>
+                        <p class="productPrice">R$ 6,00</p>
+                        <p class="productQuantity">
+                            <button type="button" class="lessProduct"><img src="assets/vectors/subtract-sign.svg" alt="reduzir quantidade do produto" /></button>
+                            <span class="quantityValue" aria-label="quantidade selecionada">1</span>
+                            <button type="button" class="moreProduct"><img src="assets/vectors/add-sign.svg" alt="aumentar quantidade do produto" /></button>
+                        </p>
+                        <button type="button" class="addToCart">Adicionar ao carrinho</button>
+                    </li>
+                </ul>
+
+            </article>
 
         </main>
     </body>
