@@ -334,6 +334,7 @@ h2 {
     bottom: 20px;
     right: 20px;
     z-index: 100;
+    box-shadow: 0 0 1px #ffffff;
 }
 
 /* slides */
@@ -344,6 +345,16 @@ h2 {
     background-image: url(assets/pictures/flow-image-01.webp);
     background-size: cover;
     display: flex;
+}
+@media (max-width:900px){
+    .welcomeFedd {
+        background-image: url(assets/pictures/flow-image-sml.webp);
+    }
+}
+@media (min-width:1150px){
+    .welcomeFedd {
+        background-image: url(assets/pictures/flow-image-xl.webp);
+    }
 }
 
 .messageBoard{
