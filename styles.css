@@ -40,6 +40,7 @@ h2 {
     width: 100%;
     display: flex;
     flex-direction: column;
+    z-index: 99;
 }
 @media (max-width: 850px) {
     #fixedHeader {
@@ -583,6 +584,7 @@ li .promotionTag {
     font-family: "Avenir35";
     color: #ffffff;
     font-size: 1rem;
+    z-index: 2;
 }
 
 .topSales .goToShop {
